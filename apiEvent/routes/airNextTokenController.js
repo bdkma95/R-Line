@@ -1,0 +1,14 @@
+const express = require('express');
+const { ethers } = require("ethers");
+const router = express.Router();
+
+
+//var wsProvider = new ethers.providers.WebSocketProvider("wss://rinkeby.infura.io/ws/v3/06e18a4c75604ff0a2927f6305f1f20e",'rinkeby');
+
+var wsProvider = new ethers.providers.WebSocketProvider("http://localhost:8545");
+
+let contract = new ethers.Contract("", "CONTRACT_ABI", wsProvider);
+
+contract.on("*", (from, to, value, event) => {
+  console.log("event: ", event);
+});

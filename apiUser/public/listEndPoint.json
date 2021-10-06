@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "name":"decimals",
+        "type": "public",
+        "params": {},
+        "return":"uint8"
+    },
+    {
+        "id": 2,
+        "name":"validateTransfer",
+        "type": "public",
+        "params": {
+            "param1": "uint tableau"
+        },
+        "return":"bool"
+    },
+    {
+        "id": 3,
+        "name":"refusedTransfer",
+        "type": "public",
+        "params": {
+            "param1": "uint tableau"
+        },
+        "return":"bool"
+    },
+    {
+        "id": 4,
+        "name":"createtransferLatence",
+        "type": "public",
+        "params": {
+            "param1": "address _sender",
+            "param2":"address payable",
+            "param3":"address _recipient",
+            "param4":"uint256 _amount"
+        },
+        "return":"bool"
+    },
+    {
+        "id": 5,
+        "name":"transferLatence",
+        "type": "public",
+        "params": {
+            "param1": "uint tableau"
+        },
+        "return":"bool"
+    }
+]
