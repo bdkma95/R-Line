@@ -20,7 +20,7 @@
         "passport-local": "^1.0.0",
         "util": "^0.12.4",
         "web3": "^4.0.1",
-        "web3-eth-contract": "^1.6.0"
+        "web3-eth-contract": "^4.0.1"
     },
     "name": "dev-test",
     "version": "1.0.0",
