@@ -28,7 +28,7 @@
     "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
     "util": "^0.12.4",
-    "ethers": "^5.4.7",
+    "ethers": "^6.0.0",
     "helmet": "^4.6.0"
   }
 }
